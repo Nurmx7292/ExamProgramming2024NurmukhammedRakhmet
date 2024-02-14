@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    internal class PointColour
+    public enum PointColour
     {
+        Red,
+        Green,
+        Blue
     }
 }
