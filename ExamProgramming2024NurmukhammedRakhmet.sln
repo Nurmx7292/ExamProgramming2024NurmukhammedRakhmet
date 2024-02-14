@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geomet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryTests", "GeometryTests\GeometryTests.csproj", "{E2EA6B85-4F72-4A50-A087-81624925682D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{C7C6605C-FAF0-4F46-B5EF-BD9E4F71B6C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E2EA6B85-4F72-4A50-A087-81624925682D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2EA6B85-4F72-4A50-A087-81624925682D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2EA6B85-4F72-4A50-A087-81624925682D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C6605C-FAF0-4F46-B5EF-BD9E4F71B6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C6605C-FAF0-4F46-B5EF-BD9E4F71B6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C6605C-FAF0-4F46-B5EF-BD9E4F71B6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C6605C-FAF0-4F46-B5EF-BD9E4F71B6C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
