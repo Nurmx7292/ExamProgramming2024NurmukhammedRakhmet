@@ -6,7 +6,33 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    internal class Point
+    public class Point : IReflectable
     {
+        public decimal X { get; protected set; }
+        public decimal Y { get; protected set; }
+
+        public Point(decimal x)
+        {
+            X = x;
+            Y = 0;
+        }
+
+        public Point(decimal x, decimal y)
+        {
+            X = x;
+            Y = y;
+        }
+
+        public void ReflectX()
+        {
+            X = -X;
+        }
+
+        public void ReflectY()
+        {
+            Y = -Y;
+        }
+
+        public virtual bool IsOnAxis => X == 0 || Y == 0;
     }
 }
